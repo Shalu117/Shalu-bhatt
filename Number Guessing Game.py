@@ -6,7 +6,7 @@ print("1.Play")
 print("2.Exit")
 ch=input("enter your choice")
 if ch=='1':
-    x = random.randint(1, 10)
+    x = random.randint(1, 50)
     chances=5
     points=100
     while chances!=0:
